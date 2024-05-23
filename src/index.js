@@ -5,6 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import AppStore from "./utils/AppStore"
+import { app } from "./firebase"; // Import Firebase app instance
+
+// If you're using analytics, import it here
+import { analytics } from "./firebase";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
